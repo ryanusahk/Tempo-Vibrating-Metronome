@@ -1,0 +1,31 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "ryanusahk@gmail.com",
+    "longName": "Tempo",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/icon.png",
+                "menuIcon": true,
+                "name": "MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "fonts/Helvetica_Light_Normal.ttf",
+                "name": "HELVETICA_LIGHT_72",
+                "type": "font"
+            }
+        ]
+    },
+    "shortName": "Tempo",
+    "uuid": "27bd00f4-3788-424d-b2d3-620bd5fe0ade",
+    "versionCode": 1,
+    "versionLabel": "1.01",
+    "watchapp": {
+        "watchface": false
+    }
+}
