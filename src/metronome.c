@@ -30,10 +30,16 @@ char *itoa(int num) {
     return string;
 }
 
+static uint32_t min(int x, int y) {
+  if (x > y){
+    return y;
+  } return x;
+}
+
 
 static void beat(void){
   if (running) {
-    uint32_t segments[] = {150};
+    uint32_t segments[] = {min(150, 150 * 80/bpm)};
     VibePattern pat = {
       .durations = segments,
       .num_segments = ARRAY_LENGTH(segments),

@@ -21,10 +21,11 @@
             }
         ]
     },
+    "sdkVersion": "2",
     "shortName": "Tempo",
     "uuid": "27bd00f4-3788-424d-b2d3-620bd5fe0ade",
     "versionCode": 1,
-    "versionLabel": "1.01",
+    "versionLabel": "1.2",
     "watchapp": {
         "watchface": false
     }
